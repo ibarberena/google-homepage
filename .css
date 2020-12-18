@@ -1,22 +1,38 @@
-Example
-ul {
+#header {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-   position: fixed;
+  position: fixed;
   top: 0;
   width: 100%;
 }
 
-li {
-  float: left;
-}
-
-li a {
+  li {
   display: block;
   color: black;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: justify;
+  padding: 20px 50px;
+  float: left;
   text-decoration: none;
+}
+
+img {
+  display: block;
+  position: static;
+  padding: 100px 50px;
+}
+
+#search {
+  display: block;
+  position: static;
+  padding: 0;
+}
+
+#footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
